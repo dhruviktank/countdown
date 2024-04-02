@@ -47,7 +47,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Time to Go</h1>
+        <h1>Time To Lunch</h1>
         <div class="counter">
             <div class="weeks">
                 <p class="count w">2</p>
@@ -72,7 +72,7 @@
         </div>
     </div>
     <script>
-        var eventdate = new Date("Apr 1, 2024 18:30:00").getTime()
+        var eventdate = new Date("Apr 2, 2024 12:00:00").getTime()
         var s = document.getElementsByClassName('s')[0]
         var w = document.getElementsByClassName('w')[0]
         var d = document.getElementsByClassName('d')[0]
@@ -93,7 +93,7 @@
             w.innerHTML = week
             if (dif < 0) {
                 clearInterval(x)
-                document.querySelector('h1').innerHTML = "Let's Go"
+                document.querySelector('h1').innerHTML = "Lunch Time"
                 s.innerHTML = 0
                 m.innerHTML = 0
                 h.innerHTML = 0
